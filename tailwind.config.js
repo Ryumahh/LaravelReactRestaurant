@@ -1,13 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    "./resources/**/*.blade.php",
-    "./resources/**/*.js",
-    "./resources/**/*.vue",
-    "./src/**/*.{html,js}"
+    "./index.html",
+    "./src/**/*.jsx"
   ],
   theme: {
     extend: {},
   },
   plugins: [],
 }
+
